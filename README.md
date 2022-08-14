@@ -1,4 +1,4 @@
-# Java101
+# Java101 [Patika.dev] (www.patika.dev)
 * 1.odevim Ders notu hesaplama if kullanmadan.
 * ''' 
 * import java.util.Scanner;
@@ -38,4 +38,30 @@ public class NotHesaplama {
          System.out.println(str);
     }
 }  '''
-[Patika.dev] (www.patika.dev)
+-------------------------------------------------------------------------------------
+
+## 2. Odev KDV hesaplama.
+
+''' java.
+import java.sql.SQLOutput;
+import java.util.Scanner;
+public class KDVhesaplama {
+    public static void main(String[] args) {
+         double urunTutari, kdvOran = 0.18, kdvTutar, kdvliTutar;
+
+         Scanner input = new Scanner(System.in);
+         System.out.print("ürün tutarını giriniz: ");
+         urunTutari = input.nextDouble();
+
+         kdvTutar = urunTutari * kdvOran;
+         kdvliTutar = urunTutari + kdvTutar;
+
+        System.out.println("KDV siz tutar:" + urunTutari);
+        System.out.println("KDV oranı: " + kdvOran);
+        System.out.println("KDV Tutarı: " + kdvTutar);
+        System.out.println("KDV' li tutar : " + kdvliTutar);
+
+    }
+}
+'''
+----------------------------------------------------------------------------------------
