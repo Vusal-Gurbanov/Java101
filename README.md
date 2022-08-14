@@ -2,7 +2,7 @@
 ---
 ## 1.odevim Ders notu hesaplama if kullanmadan.
 '''
- import java.util.Scanner;
+ {import java.util.Scanner;
 public class NotHesaplama {
     public static void main(String[] args) {
         //değişkenler oluşturuyoruz.
@@ -36,7 +36,7 @@ public class NotHesaplama {
          //gecdi, gecmedi kontrol ediyoruz if kulanmadan.
         boolean gecti= sonuc<=60;
         String str= gecti ? "Tebrikler gectiniz":"Malesef calismak lazm! ";
-         System.out.println(str);
+         System.out.println(str);}
     
   '''
 -------------------------------------------------------------------------------------
@@ -44,7 +44,7 @@ public class NotHesaplama {
 ## 2. Odev KDV hesaplama.
 
 ''' java.
-import java.sql.SQLOutput;
+{import java.sql.SQLOutput;
 import java.util.Scanner;
 public class KDVhesaplama {
     public static void main(String[] args) {
@@ -60,7 +60,7 @@ public class KDVhesaplama {
         System.out.println("KDV siz tutar:" + urunTutari);
         System.out.println("KDV oranı: " + kdvOran);
         System.out.println("KDV Tutarı: " + kdvTutar);
-        System.out.println("KDV' li tutar : " + kdvliTutar);
+        System.out.println("KDV' li tutar : " + kdvliTutar);}
 
     
 
