@@ -1,7 +1,8 @@
 # Java101 [Patika.dev] (www.patika.dev)
-* 1.odevim Ders notu hesaplama if kullanmadan.
-* ''' 
-* import java.util.Scanner;
+---
+## 1.odevim Ders notu hesaplama if kullanmadan.
+'''
+ import java.util.Scanner;
 public class NotHesaplama {
     public static void main(String[] args) {
         //değişkenler oluşturuyoruz.
@@ -61,7 +62,7 @@ public class KDVhesaplama {
         System.out.println("KDV Tutarı: " + kdvTutar);
         System.out.println("KDV' li tutar : " + kdvliTutar);
 
-    }
-}
+    
+
 '''
 ----------------------------------------------------------------------------------------
