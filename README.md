@@ -36,8 +36,8 @@ public class NotHesaplama {
         boolean gecti= sonuc<=60;
         String str= gecti ? "Tebrikler gectiniz":"Malesef calismak lazm! ";
          System.out.println(str);
-    }
-}  '''
+    
+  '''
 -------------------------------------------------------------------------------------
 
 ## 2. Odev KDV hesaplama.
