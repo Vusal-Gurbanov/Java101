@@ -1,8 +1,8 @@
 # Java101 [Patika.dev] (www.patika.dev)
 ---
 ## 1.odevim Ders notu hesaplama if kullanmadan.
-'''
- {import java.util.Scanner;
+```
+ import java.util.Scanner;
 public class NotHesaplama {
     public static void main(String[] args) {
         //değişkenler oluşturuyoruz.
@@ -38,12 +38,12 @@ public class NotHesaplama {
         String str= gecti ? "Tebrikler gectiniz":"Malesef calismak lazm! ";
          System.out.println(str);}
     
-  '''
+```
 -------------------------------------------------------------------------------------
 
 ## 2. Odev KDV hesaplama.
 
-''' java.
+``` java.
 {import java.sql.SQLOutput;
 import java.util.Scanner;
 public class KDVhesaplama {
@@ -64,5 +64,5 @@ public class KDVhesaplama {
 
     
 
-'''
+```
 ----------------------------------------------------------------------------------------
